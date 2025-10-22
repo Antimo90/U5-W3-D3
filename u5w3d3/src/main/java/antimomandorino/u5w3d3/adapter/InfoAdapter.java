@@ -23,10 +23,10 @@ public class InfoAdapter implements DataSource {
     public int getEta() {
         Date dataDiNascitaDate = info.getDataDiNascita();
 
-        // 1. Ottiengo la data odierna
+        // 1. Ottengo la data odierna
         Calendar dataOdierna = Calendar.getInstance();
 
-        // 2. Ottiengo la data di nascita
+        // 2. Ottengo la data di nascita
         Calendar dataNascita = Calendar.getInstance();
         dataNascita.setTime(dataDiNascitaDate);
 
