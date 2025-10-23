@@ -15,13 +15,13 @@ public class InfoAdapter implements DataSource {
     @Override
     public String getNomeCompleto() {
 
-        return info.getNome() + " " + info.getCognome();
+        return this.info.getNome() + " " + this.info.getCognome();
     }
 
 
     @Override
     public int getEta() {
-        Date dataDiNascitaDate = info.getDataDiNascita();
+        Date dataDiNascitaDate = this.info.getDataDiNascita();
 
         // 1. Ottengo la data odierna
         Calendar dataOdierna = Calendar.getInstance();

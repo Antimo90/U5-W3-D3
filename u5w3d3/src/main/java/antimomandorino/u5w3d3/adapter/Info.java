@@ -16,7 +16,7 @@ public class Info {
     }
 
     public String getCognome() {
-        return cognome;
+        return this.cognome;
     }
 
     public void setCognome(String cognome) {
@@ -24,7 +24,7 @@ public class Info {
     }
 
     public Date getDataDiNascita() {
-        return dataDiNascita;
+        return this.dataDiNascita;
     } // Corretto per restituire Date
 
     public void setDataDiNascita(Date dataDiNascita) {

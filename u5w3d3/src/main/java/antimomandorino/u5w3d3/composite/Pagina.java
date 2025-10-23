@@ -17,4 +17,12 @@ public class Pagina implements ElementoLibro {
     public void stampa() {
         System.out.println("Stampa Pagina: " + contenuto.substring(0, Math.min(contenuto.length(), 20)) + "...");
     }
+
+    public String getContenuto() {
+        return this.contenuto;
+    }
+
+    public void setContenuto(String contenuto) {
+        this.contenuto = contenuto;
+    }
 }
